@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/chatImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/chat"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/chienImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/chien"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/lionImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@drawable/lion" />
+
+    <ImageView
+        android:id="@+id/aneImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@drawable/ane" />
+
+    <ImageView
+        android:id="@+id/oiseauImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@drawable/oiseau" />
+
+</LinearLayout>
